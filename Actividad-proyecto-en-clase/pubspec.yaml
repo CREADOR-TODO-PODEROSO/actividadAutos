@@ -23,11 +23,12 @@ flutter:
 
 
   assets:
-    - lib/imang/carro 1.webp
-    - lib/imang/carro 3.jpg
-    - lib/imang/carro 4.jpeg
-    - lib/imang/carro5.webp
-    - lib/imang/carro 6.webp
-    - lib/imang/carro 7.webp
+    - lib/imag/carro 1.webp
+    - lib/imag/carro 3.jpg
+    - lib/imag/carro 4.jpeg
+    - lib/imag/carro5.webp
+    - lib/imag/carro 6.webp
+    - lib/imag/carro 7.webp
+    - lib/imag/k18fdlfl0x9b1.jpg
     
 
