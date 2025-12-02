@@ -1,4 +1,4 @@
-// lista_carros.dart
+// lista_carros para la renta
 import 'package:flutter/material.dart';
 
 class ListaCarrosScreen extends StatelessWidget {
@@ -16,7 +16,7 @@ class ListaCarrosScreen extends StatelessWidget {
       "titulo": "Chevrolet Onix Turbo 2024",
       "precio": "420.000",
       "tiempo": "por semana",
-      "desc": "Automático • Pantalla táctil 8\" • 6 airbags • Cámara de reversa • Bluetooth • Android Auto & Apple CarPlay • Muy cómodo y moderno",
+      "desc": "Automático • Pantalla táctil 8\" • 4 airbags • Cámara de reversa • Bluetooth • Android Auto & Apple CarPlay • Muy cómodo y moderno",
       "imagen": "lib/imang/carro 3.jpg",
     },
     {
@@ -62,7 +62,7 @@ class ListaCarrosScreen extends StatelessWidget {
         padding: const EdgeInsets.all(16),
         gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
           crossAxisCount: 2,
-          childAspectRatio: 0.68, // Ajustado para que quepa todo
+          childAspectRatio: 0.68, 
           crossAxisSpacing: 16,
           mainAxisSpacing: 16,
         ),
@@ -78,7 +78,7 @@ class ListaCarrosScreen extends StatelessWidget {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  // Foto
+                  // Foto de los carros
                   ClipRRect(
                     borderRadius: BorderRadius.circular(16),
                     child: Image.asset(
@@ -131,7 +131,7 @@ class ListaCarrosScreen extends StatelessWidget {
 
                   const Spacer(),
 
-                  ////////////////////////
+                  //////////////////////////////////////////////
                   SizedBox(
                     width: double.infinity,
                     height: 48,
@@ -149,7 +149,7 @@ class ListaCarrosScreen extends StatelessWidget {
                             backgroundColor: Colors.green[700],
                             behavior: SnackBarBehavior.floating,
                             content: Text(
-                              "¡${c["titulo"]} reservado! Te contactomois en minutos por WhatsApp",
+                              "¡${c["titulo"]} reservado! Te contactaremos en minutos por WhatsApp....",
                               style: const TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
                             ),
                           ),
